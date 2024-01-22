@@ -1,4 +1,15 @@
 body {
-    margin: 20px;
-    background-color: antiquewhite;
+  background-color: rgb(210, 171, 120);
+  text-align: center;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Ajusta la altura según tu preferencia */
+}
+
+svg {
+  display: block; /* Hace que los SVGs ocupen todo el ancho disponible */
+  margin: 10px auto; /* Centra los SVGs verticalmente y agrega espacio entre ellos */
 }
